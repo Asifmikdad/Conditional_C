@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(int argc, char const *argv[])
 {
     int age;
@@ -6,7 +6,6 @@ int main(int argc, char const *argv[])
     printf("Enter your age: ");
     scanf("%d", &age);
 
-    (age >= 18)? 
-    printf("You can vote") : printf("You can not vote");
+    (age >= 18) ? printf("You can vote") : printf("You can not vote");
     return 0;
 }
